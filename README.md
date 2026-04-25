@@ -74,6 +74,15 @@ Model B shows consistent directional lift across cart and purchase metrics but d
 **Effect Size** — p-values alone do not tell you if a result is practically meaningful. Cohen's d measures the magnitude of the difference independent of sample size.
 
 ---
+## Streamlit Dashboard Screenshots
 
+All dashboard screenshots are available 
+
+Included:
+- Dashboard Overview
+- Purchase Conversion Analysis
+- Conversion Funnel
+  
+---
 Built by Preethikgha M
 
