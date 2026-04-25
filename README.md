@@ -17,7 +17,7 @@ End-to-end ML experiment platform that runs statistically rigorous A/B tests on 
 
 Most ML teams ship models based on offline metrics like AUC and RMSE without validating real user impact. Athena solves this by running statistically rigorous online controlled experiments that measure what actually matters: clicks, carts, and purchases.
 
-This project evaluates two competing recommendation strategies on 1.4 million real users from the Retailrocket e-commerce platform.
+This project evaluates two competing recommendation strategies on 1.4 million historical user interactions from the Retailrocket e-commerce platform.
 
 ---
 
