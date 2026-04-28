@@ -14,6 +14,6 @@ users["variant"] = users["visitorid"].apply(assign_variant)
 print("Variant split:")
 print(users["variant"].value_counts())
 
-# save it
+
 users.to_csv("user_assignments.csv", index=False)
 print("\nSaved to user_assignments.csv")
