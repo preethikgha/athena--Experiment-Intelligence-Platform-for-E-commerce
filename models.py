@@ -16,7 +16,7 @@ top_items_a = (df[df["event"] == "transaction"]
 
 # ── Model B: Engagement popularity (broader signal) ───────
 # recommends top 10 most VIEWED+CARTED items
-# weights: view=1, addtocart=3, transaction=5
+
 weight_map = {"view": 1, "addtocart": 3, "transaction": 5}
 df["weight"] = df["event"].map(weight_map)
 
@@ -30,7 +30,7 @@ print("Model A top 10 (purchase-based):", top_items_a)
 print("Model B top 10 (engagement-based):", top_items_b)
 print("\nOverlap between models:", len(set(top_items_a) & set(top_items_b)), "items")
 
-# tag events by whether recommended item was interacted with
+
 control_df = df[df["variant"] == "control"].copy()
 control_df["rec_relevant"] = control_df["itemid"].isin(set(top_items_a))
 
